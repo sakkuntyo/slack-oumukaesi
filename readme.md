@@ -18,6 +18,8 @@ $ nvm use 8.11.0
 # このアプリの起動
 $ git clone https://github.com/sakkuntyo/slack-oumukaesi
 $ cd slack-oumukaesi
+## tokenの記載場所書き換え
+$ sed "s/<Bot User OAuth Access Token>/ここにボットのtokenを入れる/g" -i routes/index.js
 $ npm install
 $ npm start
 ```
