@@ -22,6 +22,14 @@ $ cd slack-oumukaesi-nodejs
 $ sed "s/<Bot User OAuth Access Token>/ここにボットのtokenを入れる/g" -i routes/index.js
 $ npm install
 $ npm start
+
+# デーモンにしたい場合、pm2を使う
+$ npm install -g pm2
+$ pm2 start bin/www slack-oumukaesi
+## OSの起動と同時に起動
+$ pm2 startup
+## 現在のpm2 listの状態を保存
+$ pm2 save
 ```
 
 ## slackのページで行う事
