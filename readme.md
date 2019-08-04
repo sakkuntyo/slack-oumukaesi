@@ -32,7 +32,7 @@ $ pm2 startup
 $ pm2 save
 ```
 
-## slackのページで行う事
+## [slack api](https://api.slack.com/apps)のページで行う事
 
 どこまで行ったかわからなくなってしまった場合は
 Basic Informationを見る
